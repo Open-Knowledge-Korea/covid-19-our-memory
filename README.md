@@ -1,6 +1,5 @@
 # [COVID-19:우리의 기억](http://okfn.kr/projects/covid-19-our-memory/)
 
-![cayley logo](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/blob/master/logo/Cayley_caption.png)
 
 ## 목표
 
@@ -46,5 +45,6 @@ Team.Cayley는 중앙대학교 문헌정보학과와 사회학과 재학생이 �
 * 사회 | 김가윤 박하람 송채은 이육샛별 이해영
 * 환경 | 이정윤 안지은 김가인 
 
+![cayley logo](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/blob/master/logo/Cayley_caption.png)
 
 

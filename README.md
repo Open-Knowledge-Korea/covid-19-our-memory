@@ -1,4 +1,4 @@
-# COVID-19:우리의 기억
+# [COVID-19:우리의 기억](http://okfn.kr/projects/covid-19-our-memory/)
 
 
 ## 목표
@@ -12,16 +12,14 @@
 ## 지향점 
 COVID-19 범유행(pandemic)에 대한 우리 사회의 변화를 가치중립적인 관점으로 기록하고, 데이터를 사용해 이슈를 분석한다. 
 
-* Value-neutral Digital Archiving 
-독립적이고 중립적인 관점에서 COVID-19의 사회적 이슈, 변화에 대한 기록
-* Untacted, but Collaborative 
-온라인을 통한 대화와 협업
-* Open Data First 
-프로젝트를 통해 수집, 구축된 모든 결과의 공유 
+* **Value-neutral Digital Archiving** 독립적이고 중립적인 관점에서 COVID-19의 사회적 이슈, 변화에 대한 기록
+* **Untacted, but Collaborative** 온라인을 통한 대화와 협업
+* **Open Data First** 프로젝트를 통해 수집, 구축된 모든 결과의 공유 
 
-## 주제 
+## 주제
 사회 전반에 영향이 크고, 일상 생활의 변화를 이끌었던 이슈를 발굴하고, COVID-19의 감염 및 확산 상황에 따른 현황을 파악한다. 
 
+* [Wiki 바로가기](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/wiki)
 1. 정부 정책 및 대응
 2. 경제 
 3. 교육
@@ -29,7 +27,7 @@ COVID-19 범유행(pandemic)에 대한 우리 사회의 변화를 가치중립�
 5. 사회 
 6. 환경 
 
-## 데이터 및 소스코드 공개 
+## [데이터 및 소스코드 공개](covid-19-our-memory/data/) 
 COVID-19와 관련된 국내외 데이터, 데이터 분석 및 시각화를 위한 소스 코드를 모두 공개한다. 
 
 * News Aggregation: 주요 주제별로 수집한 뉴스 데이터

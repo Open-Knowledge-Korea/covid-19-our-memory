@@ -20,12 +20,12 @@ COVID-19 범유행(pandemic)에 대한 우리 사회의 변화를 가치중립�
 사회 전반에 영향이 크고, 일상 생활의 변화를 이끌었던 이슈를 발굴하고, COVID-19의 감염 및 확산 상황에 따른 현황을 파악한다. 
 
 * [Wiki 바로가기](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/wiki)
-1. 정부 정책 및 대응
-2. 경제 
-3. 교육
-4. 문화
-5. 사회 
-6. 환경 
+1. [정부 정책 및 대응](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/wiki/%EB%A7%88%EC%8A%A4%ED%81%AC-%EB%B6%80%EC%A1%B1%EC%9D%98-%EC%9B%90%EC%9D%B8)
+2. [교육](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/wiki/%EB%B6%84%EC%84%9D-%EB%AA%A9%EC%A0%81)
+3. [문화](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/wiki/5.1-%EB%AC%B8%ED%99%94%EC%82%B0%EC%97%85%EC%9D%98-%EC%9C%84%EA%B8%B0)
+4. [사회](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/wiki/%EB%B6%84%EC%84%9D%EB%AA%A9%ED%91%9C-%EB%AA%A9%EC%A0%81)
+5. [경제](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/wiki/%EC%84%9C%EB%A1%A0)
+6. [환경](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/wiki/8.1-%EC%BD%94%EB%A1%9C%EB%82%9819%EA%B0%80-%ED%99%98%EA%B2%BD%EC%97%90-%EC%A4%80-%EC%98%81%ED%96%A5)
 
 ## [데이터 및 소스코드 공개](covid-19-our-memory/data/) 
 COVID-19와 관련된 국내외 데이터, 데이터 분석 및 시각화를 위한 소스 코드를 모두 공개한다. 총 1,067 건의 데이터셋이 포함되어 있다. 

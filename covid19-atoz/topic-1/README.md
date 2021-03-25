@@ -37,11 +37,11 @@
 
 ## 3. 분석 결과 : google colaboratory
 > [분석 코드](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/blob/e1a3b88baaa3392b0a4741a02d0b173436692987/covid19-atoz/topic-1/code/%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0_API_%ED%99%9C%EC%9A%A9_%EA%B0%80%EC%9D%B4%EB%93%9C_%EB%B6%84%EC%84%9D%EC%BD%94%EB%93%9C.zip)<br>
-> 
+
 ## 4. International Open Data Day 2021 in Korea
 1,3,5 팀에서는 International Open Data Day 2021 in Korea에서 위의 분석 결과를 바탕으로 발표를 진행함. 
 > [International Open Data Day 2021 in Korea](http://okfn.kr/2021/02/23/%ec%98%a4%ed%94%88%eb%8d%b0%ec%9d%b4%ed%84%b0%eb%8d%b0%ec%9d%b4-2021-2/)<br>
-> [발표영상](https://www.youtube.com/watch?v=L3i_Rng3i5s&t=124s)
+> [발표영상](https://www.youtube.com/watch?v=L3i_Rng3i5s&t=124s)<br>
 > [발표 웹슬라이드 (코로나 19 공공데이터 API 활용 가이드)](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/blob/e1a3b88baaa3392b0a4741a02d0b173436692987/covid19-atoz/topic-1/presentation/%EA%B3%B5%EA%B3%B5API%20%ED%99%9C%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C_%EB%B0%9C%ED%91%9C%20webslide.zip)<br>
 > [발표 대본](https://github.com/Open-Knowledge-Korea/covid-19-our-memory/blob/e1a3b88baaa3392b0a4741a02d0b173436692987/covid19-atoz/topic-1/presentation/%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%20API%20%ED%99%9C%EC%9A%A9%20%EA%B0%80%EC%9D%B4%EB%93%9C_%EB%B0%9C%ED%91%9C%EB%8C%80%EB%B3%B8%20%ED%86%B5%ED%95%A9%EB%B3%B8.docx)
 

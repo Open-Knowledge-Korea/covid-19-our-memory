@@ -20,20 +20,11 @@
 ## 3. 데이터 출처 
 
 
-**세계 코로나 확진 현황**
+[**세계 코로나 확진 현황**](https://ourworldindata.org/coronavirus-data-explorer?tab=table&zoomToSelection=true&time=earliest..latest&country=~EuropeanUnion&region=World&testsMetric=true&interval=total&hideControls=true&perCapita=true&smoothing=0&pickerMetric=location&pickerSort=asc)
 
+[**국가별 백신 확보 현황 데이터**](https://public.tableau.com/views/COVID-19VaccinePurchase_16099487574570/TotalConfirmedDosesbyCountryandVaccineCandidate?%3Aembed=y&%3AshowVizHome=no&%3Ahost_url=https%3A%2F%2Fpublic.tableau.com%2F&%3Aembed_code_version=3&%3Atabs=yes&%3Atoolbar=yes&%3Aanimate_transition=yes&%3Adisplay_static_image=no&%3Adisplay_spinner=no&%3Adisplay_overlay=yes&%3Adisplay_count=yes&%3Alanguage=en&publish=yes&%3AloadOrderID=1)
 
-https://ourworldindata.org/coronavirus-data-explorer?tab=table&zoomToSelection=true&time=earliest..latest&country=~EuropeanUnion&region=World&testsMetric=true&interval=total&hideControls=true&perCapita=true&smoothing=0&pickerMetric=location&pickerSort=asc
-
-**국가별 백신 확보 현황 데이터**
-
-
-https://public.tableau.com/views/COVID-19VaccinePurchase_16099487574570/TotalConfirmedDosesbyCountryandVaccineCandidate?%3Aembed=y&%3AshowVizHome=no&%3Ahost_url=https%3A%2F%2Fpublic.tableau.com%2F&%3Aembed_code_version=3&%3Atabs=yes&%3Atoolbar=yes&%3Aanimate_transition=yes&%3Adisplay_static_image=no&%3Adisplay_spinner=no&%3Adisplay_overlay=yes&%3Adisplay_count=yes&%3Alanguage=en&publish=yes&%3AloadOrderID=1
-
-**국가별 백신 확보 일자 데이터**
-
-
-https://public.tableau.com/views/TimelineofCOVIDVaccineProcurementDeals_16125539354560/Dashboard1?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=yes&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=4
+[**국가별 백신 확보 일자 데이터**](https://public.tableau.com/views/TimelineofCOVIDVaccineProcurementDeals_16125539354560/Dashboard1?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=yes&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=4_)
 
 
 ## 4. 팀원명과  소감

@@ -30,7 +30,7 @@ https://public.tableau.com/views/COVID-19VaccinePurchase_16099487574570/TotalCon
 https://public.tableau.com/views/TimelineofCOVIDVaccineProcurementDeals_16125539354560/Dashboard1?:embed=y&:showVizHome=no&:host_url=https%3A%2F%2Fpublic.tableau.com%2F&:embed_code_version=3&:tabs=no&:toolbar=yes&:animate_transition=yes&:display_static_image=no&:display_spinner=no&:display_overlay=yes&:display_count=yes&:language=en&publish=yes&:loadOrderID=4
 
 
-##4. 팀원명과  소감
+## 4. 팀원명과  소감
 
 **신주영**:  코로나 데이터 중에서도 뜨거운 감자였던 백신 데이터를 다루어야 했기때문에 주관적인 해석이 안되려고 노력했다 . 세계 백신 데이터는 가공도 수집도 편하게 제공되었는데 앞으로 제공될 데이터들도 이 데이터처럼 기계가 잘 읽을 수 있게 공유되면 좋을것 같다는 생각이 들었다. 제일 적은 인원으로 일하느라 너무너무 고생했어요 우리팀 !
 

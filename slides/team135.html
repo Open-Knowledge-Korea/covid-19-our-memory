@@ -1,0 +1,730 @@
+﻿<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#" class="ws-ready">
+<head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks,
+      @jlantunez.
+    -->
+
+    <!-- SEO -->
+    <title>Team.Cayley</title>
+    <meta name="description" content="Team.cayley 코로나 19 공공데이터 API 활용가이드">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/"> -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS WebSlides -->
+    <link rel="stylesheet" type='text/css' media='all' href="../static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="../static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="http://your-url.com/"> <!-- YOUR URL -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
+    <meta property="og:description" content="WebSlides is about telling stories beautifully. Just the essential features. Good karma."> <!-- EDIT -->
+    <meta property="og:updated_time" content="2017-01-04T17:20:50"> <!-- EDIT -->
+    <meta property="og:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@webslides"> <!-- EDIT -->
+    <meta name="twitter:creator" content="@jlantunez"> <!-- EDIT -->
+    <meta name="twitter:title" content="WebSlides — Making HTML Presentations Easy"> <!-- EDIT -->
+    <meta name="twitter:description" content="WebSlides is about good karma. Just essential features. 120+ free slides ready to use."> <!-- EDIT -->
+    <meta name="twitter:image" content="static/images/share-webslides.jpg"> <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="../static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="../static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="../static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="../static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="../static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="../static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="../static/images/favicons/favicon-192.png">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+
+  </head>
+  <body>
+    <header role="banner" class='bg-apple'>
+      <nav role="navigation">
+        <p class="logo"><a href="index.html" title="WebSlides">WebSlides</a></p>
+        <ul>
+          <li class="github">
+            <a rel="external" href="https://github.com/Open-Knowledge-Korea/covid-19-our-memory" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>WebSlides</em>
+            </a>
+          </li>
+          <li class="website">
+            <a rel="external" href="http://okfn.kr/projects/covid-19-our-memory/" title="Website">
+              <svg class="fas fa-home">
+                <use xlink:href="#fa-home"></use>
+              </svg>
+              <em>@WebSlides</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+        <article id="webslides">
+            <!-- Quick Guide
+      - Each parent <section> in the <article id="webslides"> element is an individual slide.
+      - Vertical sliding = <article id="webslides" class="vertical">
+      - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+    -->
+            <section class="bg-apple aligncenter slide" id="section-1" style="display: none;">
+                <!--.wrap = container (width: 90%) -->
+                <div class="wrap zoomIn">
+                    <h1>
+                        <img class="TeamLogo" src="../static/images/135 file/cayley_color.png" width='200' height='150' alt="Cayley Logo">
+                    </h1>
+                    <h2>
+                        <span style="font-size:65px; font-weight: 400;">코로나 19 공공데이터 API 활용가이드</span>
+                    </h2>
+                    <h2>
+                        <span style="font-size:35px">Session 1</span>
+                    </h2>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-2" style="display: none;">
+                <!--.wrap = container (width: 90%) -->
+                <div class='wrap'>
+                    <h2>
+                        <strong><span style="font-size:50px; color:#01febd; font-weight:400">Purpose(Goal)</span></strong>
+                    </h2>
+                    <p>
+                        <li>
+                            <span style="font-size:30px"> 공공데이터를 활용해 기존에 제공되고 있는 정보보다 더 의미 있는 분석을 할 수 있는가?</span>
+                        </li>
+                    </p>
+                    <p>
+                        <li>
+                            <span style="font-size:30px">기존의 배포된 시각화를 보다 개선시킬 수 있는가?</span>
+                    </p>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section class="aligncenter bg-apple" id='section-6.5' style="display: none">
+                <div class="wrap size-50 aligncenter">
+                  <h3>우리가 주목한 이유</span></h3>
+                  <p>
+                    <h2>기존 코로나 정보 제공의 <span style="color:#01febd">문제점</span></h2>
+                  </p>
+                  <div class="wrap slide-bottom aligncenter">
+                    <a href="http://ncov.mohw.go.kr/bdBoardList_Real.do?brdId=1&amp;brdGubun=11&amp;ncvContSeq=&amp;contSeq=&amp;board_id=&amp;gubun=" target="_blank" class="button ghost" title="Button">보건복지부</a>
+                  </div>
+                </div>
+                <!-- .end .wrap -->
+              </section>
+
+            <section class='bg-apple current slide'>
+                <div class="wrap">
+                  <!-- [class*="content-"] = container max-width:50% = 600px -->
+                  <div class="content-center">
+                    <h3>기존 코로나 정보 제공의 문제점</h3>
+                    <ul class="flexblock specs">
+                      <li>
+                        <div>
+                          <svg class="fa-line-chart">
+                            <use xlink:href="#fa-line-chart"></use>
+                          </svg>
+                          <h2 style="color:#01febd;">충분한 정보 부족</h2>
+                          누적값만 제공
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <svg class="fa-table">
+                            <use xlink:href="#fa-table"></use>
+                          </svg>
+                          <h2 style="color:#01febd;">데이터 제공 방식</h2>
+                          표 형식으로 제공
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <svg class="fa-question-circle">
+                            <use xlink:href="#fa-question-circle"></use>
+                          </svg>
+                          <h2 style="color:#01febd;">연결성 미흡</h2>
+                          기간별 동향을 파악할 수 없음
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- end .content-center -->
+                </div>
+                <!-- .end .wrap -->
+              </section>
+
+              <section class='bg-apple' id='section-2' style="display: none">
+                <div class="wrap size-50">
+                  <h2 style='color:#01febd'>
+                    Contents
+                  </h2>
+                  <ul class="flexblock specs">
+                    <li>
+                      <div>
+                        <h2>
+                          <svg class="fa-table">
+                            <use xlink:href="#fa-table"></use>
+                          </svg>
+                          OpenAPI 살펴보기
+                        </h2>
+                        openAPI 전처리 및 컬럼 추가
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <h2>
+                          <svg class="fa-bar-chart">
+                            <use xlink:href="#fa-bar-chart"></use>
+                          </svg>
+                          코로나 1년 돌아보기
+                        </h2>
+                        정례브리핑 파일 속 숨겨진 집단 감염 정보 수집
+                      </div> 
+                    </li>
+                    <li>
+                      <div>
+                        <h2>
+                          <svg class="fa-key">
+                            <use xlink:href="#fa-key"></use>
+                          </svg>
+                          포스트 코로나로 나아가기
+                        </h2>
+                        선별진료소·중환자병상·타임라인
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <h2>
+                          <svg class="fa-magic">
+                            <use xlink:href="#fa-magic"></use>
+                          </svg>
+                          결론과 제언
+                        </h2>
+                        작업의 의의와 느낀 점
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- .end .wrap -->
+              </section>
+        
+              <section class="bg-black">
+                <span class="background anim" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
+                <!--.wrap = container (width: 90%) with fadein animation -->
+                <div class="wrap size-60">
+                  <p class="text-context">Team.Cayley</p>
+                  <h2>Open API 살펴보기</h2>
+                </div>
+                <!-- .end .wrap -->
+              </section>  
+      
+              <section class="bg-apple slide aligncenter">
+                <div class="wrap">
+                  <h2>데이터 초기 형태</h2>
+                  <p class="text-intro">컬럼의 종류</p>
+                  <ul class="flexblock border">
+                    <li>
+                      <!--div required = padding li or li>a-->
+                      <div>
+                        <h3 style="color:#01febd">1. 코로나19 감염 현황</h3>
+                        <ol>
+                            <li>게시글번호(감염현황 고유값)</li>
+                            <li>기준일</li>
+                            <li>기준시간</li>
+                            <li>확진자 수</li>
+                            <li>격리해제 수</li>
+                            <li>검사진행 수</li>
+                            <li>사망자 수</li>
+                            <li>치료중 환자 수</li>
+                            <li>결과 음성 수</li>
+                            <li>누적 검사 수</li>
+                            <li>누적 검사 완료 수</li>
+                            <li>누적 확진율</li>
+                            <li>등록일시분초</li>
+                            <li>수정일시분초</li>
+                        </ol>
+                      </div>
+                    </li>
+                    <li>
+                      <!--div required = padding li or li>a-->
+                      <div>
+                        <h3 style="color:#01febd">2. 코로나19 시도발생 현황</h3>
+                        <ol>
+                          <li>게시글번호(국내 시도별 발생현황 고유값)</li>
+                          <li>기준일시</li>
+                          <li>전일대비 증감 수</li>
+                          <li>확진자 수</li>
+                          <li>격리해제 수</li>
+                          <li>10만명당 발생률</li>
+                          <li>사망자 수</li>
+                          <li>시도명(한글)</li>
+                          <li>시도명(중국어)</li>
+                          <li>시도명(영어)</li>
+                          <li>지역발생 수</li>
+                          <li>해외유입 수</li>
+                          <li>등록일시분초</li>
+                          <li>수정일시분초</li>
+                          <li>격리중 환자수</li>
+                        </ol>
+                      </div>
+                    </li>
+                    <li>
+                      <!--div required = padding li or li>a-->
+                      <div>
+                        <h3 style="color:#01febd">3.코로나19 연령/성별 감염현황</h3>
+                        <ol>
+                            <li>게시글번호(확진자 성별, 연령별 고유값</li>
+                            <li>구분(성별, 연령별)</li>
+                            <li>확진자</li>
+                            <li>확진율</li>
+                            <li>사망자</li>
+                            <li>사망률</li>
+                            <li>치명률</li>
+                            <li>등록일시분초</li>
+                            <li>수정일시분초</li>
+                        </ol>
+                      </div>
+                    </li>
+                    <li>
+                      <!--div required = padding li or li>a-->
+                      <div>
+                        <h3 style="color:#01febd">4. 코로나19 해외발생 현황</h3>
+                        <ol>
+                            <li>게시글번호 (국외발생현황 고유값)</li>
+                            <li>기준일시</li>
+                            <li>지역명</li>
+                            <li>지역명(영문)</li>
+                            <li>지역명(중문)</li>
+                            <li>국가명</li>
+                            <li>국가명(영문)</li>
+                            <li>국가명(중문)</li>
+                            <li>국가별 확진자 수</li>
+                            <li>국가별 사망자 수</li>
+                            <li>확진율 대비 사망률</li>
+                            <li>등록일시분초</li>
+                            <li>수정일시분초</li>
+                        </ol>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- .end .wrap -->
+              </section>
+
+
+            <section class="bg-apple aligncenter slide" id="section-7" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px">API 전처리</span></h2>
+                    <p class="text-intro">
+                        1) 컬럼 이름 변경 2) 컬럼과 데이터의 불일치 수정 3) 하루에 한 개의 데이터만 들어가도록 수정<br>
+                    </p>
+                    <img class="TeamLogo" src="../static/images/135 file/section1_전처리(1).png" width='1200' height='700' alt="raw_data">
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-7" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px">필요한 컬럼 추가</span></h2>
+                    <p class="text-intro">
+                        일별 확진자수, 일별 사망자수, 일별 격리해제 수, 일별 검사완료수, 일별 신규검사수, 기준월 <br>
+                    </p>
+                    <img class="TeamLogo" src="../static/images/135 file/section1_전처리(2).png" width='1300' height='800' alt="raw_data">
+            </section>
+
+            <section class="aligncenter bg-apple" id='section-6.5' style="display: none">
+                <div class="wrap size-50 aligncenter">
+                  <p>
+                    <h2>작업 환경 소개</h2>
+                  </p>
+                  <div class="wrap slide-bottom aligncenter">
+                    <a href="https://colab.research.google.com/drive/1CQk7-MLrf7RZ_jiJXUqMXD9_KkESdAs5" target="_blank" class="button ghost" title="Button"><span style="color:#01febd">Google Colab</span></a>
+                  </div>
+                </div>
+                <!-- .end .wrap -->
+              </section>
+
+            <section class="bg-black">
+                <span class="background anim" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
+                <!--.wrap = container (width: 90%) with fadein animation -->
+                <div class="wrap size-60">
+                  <p class="text-context">Team.Cayley</p>
+                  <h2>코로나19, 1년 돌아보기</h2>
+                </div>
+                <!-- .end .wrap -->
+              </section>  
+
+            <section class="bg-apple aligncenter slide" id="section-9" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 감염 현황</span></h2>
+                    <p class="text-intro">
+                        시도별 누적 확진자<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" src="../static/images/135 file/4-1-1-전국누적확진자현황.html" height="600" width="100%"></iframe>
+                </div>
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-10" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 감염 현황</span></h2>
+                    <p class="text-intro">
+                        시도별 누적 확진자 지도<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" src="../static/images/135 file/4-1-2-1-일별확진자지도.html" height="600" width="100%"></iframe>
+                </div>
+            </section>
+
+
+            <section class="bg-apple aligncenter slide" id="section-11" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 감염 현황</span></h2>
+                    <p class="text-intro">
+                        월별 시도별 누적 확진자 애니메이션<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" src="../static/images/135 file/4-1-2-2-전국누적확진현황애니.html" height="600" width="100%"></iframe>
+                </div>
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-12" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 감염 현황</span></h2>
+                    <p class="text-intro">
+                        월별 시도별 확진자 애니메이션<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" src="../static/images/135 file/4-1-3-월별확진자현황애니.html" height="600" width="100%"></iframe>
+                </div>
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-13" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 감염 현황</span></h2>
+                    <p class="text-intro">
+                        월별 시도별 인구 수 대비 확진자 애니메이션<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" src="../static/images/135 file/4-1-4-인구수대비월별확진자수애니.html" height="600" width="100%"></iframe>
+                </div>
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-14" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 감염 현황</span></h2>
+                    <p class="text-intro">
+                        월별 연령별 감염현황<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" src="../static/images/135 file/4-1-5-연령별확진률.html" height="600" width="100%"></iframe>
+                </div>
+            </section>
+
+
+            <section class="bg-apple aligncenter slide" id="section-15" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 감염 현황</span></h2>
+                    <p class="text-intro">
+                        월별 성별 감염현황<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" src="../static/images/135 file/4-1-6-성별확진률.html" height="600" width="100%"></iframe>
+                </div>
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-16" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 검사 현황</span></h2>
+                    <p class="text-intro">
+                        일별 검사현황<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" src="../static/images/135 file/4-2-1-일별확진자수와신규검사자수.html" height="600" width="100%"></iframe>
+                </div>
+            </section>
+            
+            <section class="bg-apple aligncenter slide" id="section-22" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 검사 현황</span></h2>
+                    <p class="text-intro">
+                        요일별 검사현황<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" src="../static/images/135 file/4-2-2-요일별검사.html" height="600" width="100%"></iframe>
+                </div>
+            </section>
+            
+            <section class="bg-apple aligncenter slide" id="section-24" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 검사 현황</span></h2>
+                    <p class="text-intro">
+                        익명검사 현황<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" seamless="seamless" src="../static/images/135 file/4-3-1-총검사건수중익명검사건수.html" height="600" width="100%"></iframe>
+                </div>
+                </div>
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-24" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">국내 검사 현황</span></h2>
+                    <p class="text-intro">
+                        익명검사 현황<br>
+                    </p>
+                    <iframe id="igraph" scrolling="yes" style="border:none;" seamless="seamless" src="../static/images/135 file/4-3-2-전체신규확진자중익명검사신규확진자.html" height="600" width="100%"></iframe>
+                </div>
+                </div>
+            </section>
+
+            <!-- 가윤님 파트 : 김현지 수정-->
+
+            <section class="bg-black">
+                <span class="background anim" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
+                <!--.wrap = container (width: 90%) with fadein animation -->
+                <div class="wrap size-60">
+                  <p class="text-context">Team.Cayley</p>
+                  <h2>포스트 코로나로 나아가기</h2>
+                </div>
+                <!-- .end .wrap -->
+              </section>  
+
+            <section class="bg-apple slide" id="section-26" style="display: none;">
+                <div class="wrap">
+                    <div class='content-center'>
+                        <h2>
+                            <span style="font-size:50px; color:#01febd; font-weight:400">선별진료소, </span> <br>
+                            <span style="font-size:50px; font-weight:400">고르게 설치되었을까? </span>
+                        </h2>
+                    </div>
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-27" style="display: none;">
+                <!--선별진료소 folium-->
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">선별진료소는 고르게 설치되었을까?</span></h2>
+                    <p class="text-intro">
+                        시군구별 선별진료소 개수<br>
+                    </p>
+                    <iframe src="../static/images/135 file/3_a_1.전국_선별진료소_시각화.html" height="600" width="100%" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+                </div>
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-28" style="display: none;">
+                <!--선별진료소 folium-->
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">선별진료소는 고르게 설치되었을까?</span></h2>
+                    <p class="text-intro">
+                        색으로 나타낸 시군구별 선별진료소 개수, 시군구 인구 수 대비 선별진료소 개수<br>
+                    </p>
+                    <img src= "../static/images/135 file/3_a_2.시군구_선별진료소.png" width='1100' height='800'></iframe>
+                </div>
+            </section>
+            <section class="bg-apple aligncenter slide" id="section-33" style="display: none;">
+                <!--.wrap = container (width: 90%) -->
+                <div class='wrap'>
+                    <h2>
+                        <span style="font-size:50px; font-weight:400">선별진료소 설치 기준의 미비</span>
+                    </h2>
+                    <img class="TeamLogo" src="../static/images/135 file/3_b_3.기사제목.png" width='1300' height='800' alt="raw_data">
+                    <p>
+                        <li>
+                            <span style="font-size:25px">
+                                신종 코로나 대응지침에 선별진료소의 형태, 인력과 장비에 대한 <span style="color:#01febd">기준은 없어</span>
+                            </span>
+                        </li>
+                    </p>
+                    <p>
+                        <li>
+                            <span style="font-size:25px">
+                                의료기관 별로 선별진료소  <span style="color:#01febd">설치 목적은 물론 역량도 제각각</span>
+                            </span>
+                    </p>
+                    <p>
+                        <li>
+                            <span style="font-size:25px">
+                                선별진료소가 이처럼 운영되다보니 선별진료소 <span style="color:#01febd">전문 인력들도 피로감을 호소</span>
+                            </span>
+                    </p>
+                    <p>
+                        <li>
+                            <span style="font-size:25px">
+                                선별진료소에 대한 <span style="color:#01febd">법적 정의와 역할을 마련</span>할 필요가 있고, 시스템을 <span style="color:#01febd">지역사회별로 협의체</span>를 구성해 논의해야
+                            </span>
+                    </p>
+                </div>
+                            <!-- .end .wrap -->
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-31" style="display: none;">
+                <!--중환자병상-->
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">신규 확진자 발생 추이와 가용 중환자 병상</span></h2>
+                    <p class="text-intro">
+                        수도권<br>
+                    </p>
+                    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../static/images/135 file/3_b_1.신규확진자발생추이와가용중환자병산(수도권).html" height="525" width="100%"></iframe>
+                </div>
+
+            </section><section class="bg-apple aligncenter slide" id="section-32" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">필요한 가용 병상 수와 실제 가용 병상 수의 차</span></h2>
+                    <p class="text-intro">
+                        수도권<br>
+                    </p>
+                    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../static/images/135 file/3_b_2.필요한가용병상수와실제가용병상수의차(수도권).html" height="525" width="100%"></iframe>
+                    <p class = "text"> ※ 필요한 가용 중환자병상 수는 중앙사고수습본부의 브리핑 내용(위중증환자는 확진자 수의 2.2%)을 참고하여 더 여유있게 일일 지역 확진자 수의 2.5%로 계산</p>
+                </div>
+            </section>
+
+
+            <section class="bg-black">
+                <span class="background" style="background-image:url('https://source.unsplash.com/Xrx3WWyrwes/OshG1lLSNa4/')"></span>
+                <div class="wrap">
+                    <div class='content-center'>
+                        <h2>
+                            방역정책과 이슈를 한번에!<br> <span style="font-size:50px; color:#01febd; font-weight:400">코로나 이슈 타임라인</span>
+                        </h2>
+                    </div>
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-35" style="display: none;">
+                <!--타임라인-->
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">코로나 이슈 타임라인</span></h2>
+                    <p class="text-intro">
+                        방역정책<br>
+                    </p>
+                    <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../static/images/135 file/3_c_1.코로나이슈타임라인_방역정책.html" height="525" width="100%"></iframe>
+                </div>
+
+            </section><section class="bg-apple aligncenter slide" id="section-36" style="display: none;">
+                <div class="wrap">
+                    <h2><span style="font-size:50px; color:#01febd; font-weight:400">코로나 이슈 타임라인</span></h2>
+                    <p class="text-intro">
+                        시도별 집단감염과 이슈 관련 기사<br>
+                    </p>
+                    <div class="center">
+                        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="../static/images/135 file/3_c_2.전국일별확진자수.html" height="525" width="100%"></iframe>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="bg-black">
+              <span class="background anim" style="background-image:url('https://source.unsplash.com/n9WPPWiPPJw/')"></span>
+              <!--.wrap = container (width: 90%) with fadein animation -->
+              <div class="wrap size-60">
+                <p class="text-context">Team.Cayley</p>
+                <h2>결론과 제언</h2>
+              </div>
+              <!-- .end .wrap -->
+            </section>  
+
+            <section class="bg-apple aligncenter slide" id="section-37" style="display: none;">
+                <!--.wrap = container (width: 90%) -->
+                <div class='wrap'>
+                    <h2>
+                        <strong><span style="font-size:50px; color:#01febd; font-weight:400">결론</span></strong>
+                    </h2>
+                    <p>
+                        <li>
+                            <span style="font-size:35px">심층적 분석</span>
+                        </li>
+                    </p>
+                    <p>
+                        <li>
+                            <span style="font-size:35px">기존보다 개선된 시각화</span>
+                    </p>
+                    <p>
+                        <li>
+                            <span style="font-size:35px">데이터의 중요성</span>
+                    </p>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section class="bg-apple aligncenter slide" id="section-38" style="display: none;">
+                <!--.wrap = container (width: 90%) -->
+                <div class='wrap'>
+                    <h2>
+                        <strong><span style="font-size:50px; color:#01febd; font-weight:400">제언</span></strong>
+                    </h2>
+                    <p>
+                        <li>
+                            <span style="font-size:35px"> 더욱 다양하고 세부적인 데이터를 개방해야 합니다.</span>
+                        </li>
+                    </p>
+                    <p>
+                        <li>
+                            <span style="font-size:35px">정부에서도 개선된 시각화를 제공해야 합니다.</span>
+                    </p>
+                    <p>
+                        <li>
+                            <span style="font-size:35px">데이터 기반 정책 실효성 분석, 행정을 위한 구체적인 기준을 마련해야 합니다. </span>
+                    </p>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+            <section class="bg-apple aligncenter slide current" id="section-39">
+                <div class="wrap zoomIn">
+                    <h1><img class="TeamLogo" src="../static/images/135 file/cayley_color.png" width='200' height='150' alt="Cayley Logo"></h1>
+                    <h2><span style="font-size:80px; font-weight:400">감사합니다</span></h2>
+                    <p><a href="http://okfn.kr/projects/covid-19-our-memory/" title="Team.Cayley">Team.Cayley</a></p>
+                    <div class="wrap slide-bottom aligncenter">
+                        <a href="../index.html#slide=3" class="button ghost" title="Button">BACK</a>
+                      </div>
+                </div>
+                <!-- .end .wrap -->
+            </section>
+
+
+
+        </article>
+      <!-- end article -->
+    </main>
+    <!-- end main -->
+
+   <!-- A global footer
+
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/webslides/webslides">open source solution</a>, by <a href="https://twitter.com/webslides">@webslides</a>.</p>
+      </div>
+    </footer>  -->
+
+    <!-- Required -->
+    <script src="../static/js/webslides.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="../static/js/svg-icons.js"></script>
+
+  </body>
+</html>

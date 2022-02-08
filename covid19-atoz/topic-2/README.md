@@ -1,5 +1,5 @@
 # Section2. 숨겨진 정보를 데이터로!
-📌오픈데이터데이 발표 Webslides에서 Section2의 그래프가 안 보일 시 분석 내용을 [코랩](https://colab.research.google.com/drive/1dA2FSDhG8_K92ruu0kiraayan9tWkBXy#scrollTo=Kv-UmVgQ0pUI)에서 확인하실 수 있습니다.
+📌오픈데이터데이 발표 Webslides에서 Section2의 그래프가 안 보일 시 분석 내용을 [코랩](https://colab.research.google.com/drive/1upAwJ9spehVegrSAruuKaTt7MreQUKf4)에서 확인하실 수 있습니다.
 
 ## 1. 분석 배경
 중앙방역대책본부가 코로나19 확산 방지를 위해 업종별 영업금지 조치를 취했다. 그러나 특정한 업종의 영업정지가 지속되며 방역 정책에 대해 반발의 목소리가 커지고 형평성의 문제까지 제기되었다. 만약 코로나19 종식을 위해 영업금지 업종을 선정하는 것이 필수적이라면, 어떤 기준으로 영업금지 업종을 선정하는지가 중요할 것이라고 생각했다. 따라서 우리는 그 '기준'에 대해 질문을 가지고 '집단 감염' 데이터를 분석하여 어떤 업종에서 집단 감염이 많이 발생했는지, 지역별 집단 감염 정도는 어떠한지를 알아보고자 했다.

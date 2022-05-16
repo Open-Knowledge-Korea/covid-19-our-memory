@@ -2,8 +2,14 @@
 
 
 ## 뉴스
+* ['코로나19: 우리의 기억' 디지털 아카이브 국립중앙박물관 기증 (민간의 최초 사례)](http://www.ikoreanspirit.com/news/articleView.html?idxno=66646)
 * [COVID-19 데이터 분석 A to Z (International Open Data Day 2021 in Korea)](http://okfn.kr/2021/02/23/%ec%98%a4%ed%94%88%eb%8d%b0%ec%9d%b4%ed%84%b0%eb%8d%b0%ec%9d%b4-2021-2/)
 * 행정안전부 정부혁신해커톤, 커뮤니티상 수상 (2020년 7월)
+
+## 우리의 이야기
+
+* [한국의 코로나-19 기록보존소를 꿈꾸며 │ Team. Cayley](https://datapublic.kr/posts/21)
+* [코로나19 우리의 기억: 아카이브 기증 인터뷰](https://blog.naver.com/librarian_dreamer/222693238878)
 
 ## 목표
 
